@@ -1,6 +1,8 @@
-# Работа с git и bash
+# Work with git and bash
 
-## Bash task 1
+## Task 1
+File & Directory Operations (task covers basic terminal operations)
+
 ```javascript
 % cd ~
 % pwd
@@ -32,6 +34,8 @@
 ```
 
 ## Bash task 2
+Text Processing & Network Tools (task covers file management, pattern matching, and basic API testing using command-line tools)
+
 ```javascript
  % cd ~
  % mkdir test3 
