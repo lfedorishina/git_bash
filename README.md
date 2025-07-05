@@ -33,7 +33,7 @@ File & Directory Operations (task covers basic terminal operations)
 %cat test4/file1.txt test4/file3.txt
 ```
 
-## Bash task 2
+## Task 2
 Text Processing & Network Tools (task covers file management, pattern matching, and basic API testing using command-line tools)
 
 ```javascript
@@ -61,4 +61,18 @@ Text Processing & Network Tools (task covers file management, pattern matching, 
   -H "Content-Type: application/json" \
   -d '{"id":12345,"username":"newuser","firstName":"John","lastName":"Doe","email":"john@doe.com","password":"12345","phone":"1234567890","userStatus":1}'
 {"code":200,"type":"unknown","message":"12345"}
+```
+
+## Task 3
+Creating, cloning, pushing and pulling repositories
+
+```javascript
+
+git init lfedorishina                                       
+git clone git@github.com:lfedorishina/lfedorishina.git      
+git clone git@github.com:testrusau/testrusau.git            
+cd testrusau                                                
+git push git@github.com:lfedorishina/testrusau.git main:main
+git commit -m "committed changes"                            
+git push
 ```
